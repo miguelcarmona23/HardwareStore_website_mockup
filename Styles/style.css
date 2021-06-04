@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin&display=swap");
+body {
+  border: 2px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.first {
+  font-size: 1.25em;
+  background-color: #0b3c5d;
+  color: #dcdcdc;
+  padding: 10px;
+}
+
+.first h2 {
+  text-align: center;
+  border-bottom: 2px solid white;
+  margin: 0px;
+  font-family: Roboto, sans-serif;
+  font-size: 2.5em;
+  color: #f0f0f0;
+}
+
+.first p {
+  font-family: Palanquin, sans-serif;
+  color: #d9b310;
+}
+
+ul li {
+  font-family: Palanquin, sans-serif;
+  color: #d9b310;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  padding: 40px 30px;
+  border-radius: 10px;
+  background-image: url(/images/bg-pic.jpg);
+  background-repeat: no-repeat;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+table img {
+  border-radius: 33px;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  font-family: Palanquin, sans-serif;
+}
+
+table p {
+  font-family: Palanquin, sans-serif;
+}
+
+table .btn {
+  display: block;
+  width: 160px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  padding: 13px 15px;
+  background: #1d2731;
+  border: 1px solid #1d2731;
+  color: #fff;
+  border-radius: 33px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+table .btn:hover {
+  color: #1d2731;
+  background-color: #d9b310;
+  border-color: #d9b310;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+@media only screen and (max-width: 700px) {
+  table tbody tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=style.css.map */
